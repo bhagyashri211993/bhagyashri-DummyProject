@@ -8,7 +8,7 @@ import {child} from './shared/child.component';
 })
 export class AppComponent {
   title = 'SharedModuledemo';
-public name='bhagyashri';
+public name='bhagyashri2';
 
 @ViewChild('childmethod',{static:false}) childmethod: child;
 @Output() public passchildvalue=new EventEmitter();
