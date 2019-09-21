@@ -7,12 +7,10 @@ import {child} from './shared/child.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+
   title = 'SharedModuledemo';
-<<<<<<< HEAD
-public name='bhagyashri2';
-=======
 public name='pratiksha';
->>>>>>> 6a85fb226a7f25156ee8ad09f5ec8ee7fc2d3fed
 
 @ViewChild('childmethod',{static:false}) childmethod: child;
 @Output() public passchildvalue=new EventEmitter();
