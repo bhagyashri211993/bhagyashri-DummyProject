@@ -8,6 +8,7 @@ import { AppModule } from '../app.module';
 import { AppComponent } from '../app.component';
 import { customdirective } from './customdirective.directive';
 import { BhagyshriComponent } from './component/bhagyshri.component';
+import { PratikshaComponent } from './component/pratiksha/pratiksha.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BhagyshriComponent } from './component/bhagyshri.component';
     democomponent ,
     child,
     customdirective,
-    BhagyshriComponent
+    BhagyshriComponent,
+    PratikshaComponent
   ],
   imports: [
   
