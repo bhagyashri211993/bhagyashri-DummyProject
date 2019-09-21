@@ -7,6 +7,7 @@ import { child } from './child.component';
 import { AppModule } from '../app.module';
 import { AppComponent } from '../app.component';
 import { customdirective } from './customdirective.directive';
+import { BhagyshriComponent } from './component/bhagyshri.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { customdirective } from './customdirective.directive';
     elisp,
     democomponent ,
     child,
-    customdirective
+    customdirective,
+    BhagyshriComponent
   ],
   imports: [
   
