@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BhagyshriComponent } from '../bhagyshri/bhagyshri.component';
 
 @Component({
   selector: 'app-pratiksha',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pratiksha.component.css']
 })
 export class PratikshaComponent implements OnInit {
-
-  constructor() { }
+ public bcomp=new BhagyshriComponent();
+  constructor() {
+    this.display();
+   }
 
   ngOnInit() {
+  }
+
+
+  display()
+  {
+    console.log(this.bcomp.name);
   }
 
 }
