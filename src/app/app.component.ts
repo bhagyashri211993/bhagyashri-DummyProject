@@ -6,9 +6,7 @@ import {child} from './shared/child.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-
-
+ export class AppComponent {
   title = 'SharedModuledemo';
 public name='pratiksha';
 

@@ -7,7 +7,7 @@ import { child } from './child.component';
 import { AppModule } from '../app.module';
 import { AppComponent } from '../app.component';
 import { customdirective } from './customdirective.directive';
-import { BhagyshriComponent } from './component/bhagyshri.component';
+import { BhagyshriComponent } from './component/bhagyshri/bhagyshri.component'
 import { PratikshaComponent } from './component/pratiksha/pratiksha.component';
 
 @NgModule({
