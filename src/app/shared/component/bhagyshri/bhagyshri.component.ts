@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bhagyshri.component.css']
 })
 export class BhagyshriComponent implements OnInit {
+     public name="bhagyashri-pratiksha";
 
   constructor() { }
 
