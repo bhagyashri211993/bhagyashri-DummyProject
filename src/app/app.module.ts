@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
+import { AuthenticationModule } from './authentication/authentication.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { RouterModule } from '@angular/router';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    AuthenticationModule
     
  
   ],

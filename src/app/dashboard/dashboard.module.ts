@@ -9,6 +9,8 @@ import { PanelComponent } from './panel/panel.component';
   declarations: [FixedLayoutComponent, PanelComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports:
+  [FixedLayoutComponent, PanelComponent]
 })
 export class DashboardModule { }
