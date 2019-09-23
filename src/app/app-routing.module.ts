@@ -14,10 +14,10 @@ const routes: Routes = [
     path: "dashboard", component: FixedLayoutComponent,
 
     children: [{
-      path: "log-in", loadChildren: "./authentication/authentication.module#AuthenticationModule"
+      path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
     },
     {
-      path: "sign-up", loadChildren: "authenticaton.module#AuthenticationModule"
+      path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
     }
 
     ],
