@@ -6,10 +6,10 @@ import { Routes, Router, RouterModule } from '@angular/router';
 
 const routes:Routes=[
   {
-    path:'',component:LoginComponent
+    path:'sign-in',component:LoginComponent
   },
 {
-  path:'',component:SignUpComponent
+  path:'sign-up',component:SignUpComponent
 }
 ];
 
@@ -20,6 +20,6 @@ const routes:Routes=[
     CommonModule,
     RouterModule.forChild(routes)
   ],
-  exports:[LoginComponent, SignUpComponent]
+  // exports:[LoginComponent, SignUpComponent]
 })
 export class AuthenticationModule { }
