@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { AuthenticationModule } from './authentication/authentication.module';
+import { DashboardModule } from './dashboard/dashboard.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    
    
   ],
   imports: [
@@ -18,7 +20,8 @@ import { AuthenticationModule } from './authentication/authentication.module';
     AppRoutingModule,
     SharedModule,
     RouterModule,
-    AuthenticationModule
+    AuthenticationModule,
+    DashboardModule
     
  
   ],

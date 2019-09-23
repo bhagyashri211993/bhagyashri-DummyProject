@@ -1,0 +1,48 @@
+.nav {
+    border-bottom: 1px solid #c8ced3;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #73818f;
+}
+
+.brand {
+    height: 30px;
+    width: 100px;
+}
+
+/* side bar css */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #2f353a;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.iconColor{
+    color: #73818f;
+}
+
+/* footer style */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #23282c;
+    background: #f0f3f5;
+    border-top: 1px solid #c8ced3;
+    text-align: center;
+}
