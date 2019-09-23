@@ -20,6 +20,6 @@ const routes:Routes=[
     CommonModule,
     RouterModule.forChild(routes)
   ],
-  exports:[LoginComponent, SignUpComponent]
+  // exports:[LoginComponent, SignUpComponent]
 })
 export class AuthenticationModule { }
