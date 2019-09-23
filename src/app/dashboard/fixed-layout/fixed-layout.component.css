@@ -1,3 +1,13 @@
+/* .innerContent {
+    height: calc(100% - 98px);
+    position: relative;
+    width: calc(100% - 200px);
+    margin-left: 200px;
+    border: 10px solid blue;
+    /* background-color: blue; */
+    /* margin-top: 57px; */
+/* } */ */
+
 .nav {
     border-bottom: 1px solid #c8ced3;
 }
@@ -30,11 +40,9 @@
     text-decoration: none;
 }
 
-.iconColor{
+.iconColor {
     color: #73818f;
 }
-
-
 
 /* footer style */
 
@@ -47,7 +55,5 @@
     background: #f0f3f5;
     border-top: 1px solid #c8ced3;
     text-align: center;
-    margin-left:200px;
-    
-    
+    margin-left: 200px;
 }

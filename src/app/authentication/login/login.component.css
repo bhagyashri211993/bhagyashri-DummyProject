@@ -2,13 +2,16 @@
 
  @import url('https://fonts.googleapis.com/css?family=Numans');
 
-#bgimg{
-background-image: url('../../../assets/images/wallpaper.jpg');
-background-size: cover; 
-background-repeat: repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
-} 
+
+ .loginDiv
+ {
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%,-50%);
+     height: 100%;
+     width: 100%;
+ }
 
 .container{
 height: 100%;
