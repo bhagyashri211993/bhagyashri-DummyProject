@@ -1,20 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FixedLayoutComponent } from './fixed-layout/fixed-layout.component';
-import { PanelComponent } from './panel/panel.component';
-import { AuthenticationModule } from '../authentication/authentication.module';
+
 import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
 
 
 
 @NgModule({
-  declarations: [FixedLayoutComponent, PanelComponent],
+  declarations: [FixedLayoutComponent],
   imports: [
     CommonModule,
-    AuthenticationModule,
-    RouterModule
+   
+    RouterModule,SharedModule
   ],
-  exports:
-  [FixedLayoutComponent, PanelComponent]
+//   exports:
+//   [FixedLayoutComponent, PanelComponent]
 })
 export class DashboardModule { }

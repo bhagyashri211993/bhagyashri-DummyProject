@@ -6,8 +6,12 @@ import { child } from './child.component';
 import { AppModule } from '../app.module';
 import { AppComponent } from '../app.component';
 import { customdirective } from './customdirective.directive';
-import { BhagyshriComponent } from './component/bhagyshri/bhagyshri.component'
-import { PratikshaComponent } from './component/pratiksha/pratiksha.component';
+import { DashboardHeaderComponent } from './component/dashboard-header/dashboard-header.component';
+import { DashboardFooterComponent } from './component/dashboard-footer/dashboard-footer.component';
+import { DashboardSidebarComponent } from './component/dashboard-sidebar/dashboard-sidebar.component';
+import { DashboardPanelComponent } from './component/dashboard-panel/dashboard-panel.component';
+import { RouterModule } from '@angular/router';
+
 
 @NgModule({
   declarations: [
@@ -15,19 +19,25 @@ import { PratikshaComponent } from './component/pratiksha/pratiksha.component';
     elisp,
     child,
     customdirective,
-    BhagyshriComponent,
-    PratikshaComponent
+    DashboardHeaderComponent,
+    DashboardFooterComponent,
+    DashboardSidebarComponent,
+    DashboardPanelComponent,
+    
   ],
   imports: [
-  
+  RouterModule
   ],
   exports:[
     CommonModule,
     sqrt,
     elisp,
     child,customdirective,
-    BhagyshriComponent,
-    PratikshaComponent
+    DashboardHeaderComponent,
+    DashboardFooterComponent,
+    DashboardSidebarComponent,
+    DashboardPanelComponent,
+    
   ]
 })
 export class SharedModule { }
