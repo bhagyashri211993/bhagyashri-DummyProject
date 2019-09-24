@@ -6,11 +6,7 @@ import { Routes, Router, RouterModule } from '@angular/router';
 
 const routes:Routes=[
   {
-<<<<<<< HEAD
     path:'sign-in',component:LoginComponent
-=======
-    path:'log-in',component:LoginComponent
->>>>>>> df34d9e3d12a9826233d5efb72f98f06562fb7b4
   },
 {
   path:'sign-up',component:SignUpComponent
