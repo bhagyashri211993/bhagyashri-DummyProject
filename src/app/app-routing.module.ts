@@ -7,20 +7,24 @@ import { PagenotfoundComponent } from './shared/component/pagenotfound/pagenotfo
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'dashboard', pathMatch: 'full'
+    path: '', redirectTo: 'log-in', pathMatch: 'full'
   },
   
+  {
+    path: 'log-in', loadChildren: "./authentication/authentication.module#AuthenticationModule"
+
+  },
   {
     path: 'dashboard', component: FixedLayoutComponent,
 
     children: [{
-      path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
-    },
-    {
-      path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
-    },
+    //   path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
+    // },
+    // {
+    //   path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
+    // },
 
-    {
+    // {
       path:'',loadChildren:"./shared/shared.module#SharedModule"
     }
     ],
