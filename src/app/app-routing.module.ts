@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { FixedLayoutComponent } from './dashboard/fixed-layout/fixed-layout.component';
+import { PagenotfoundComponent } from './shared/component/pagenotfound/pagenotfound.component';
 
 
 const routes: Routes = [
@@ -10,7 +11,7 @@ const routes: Routes = [
   },
   
   {
-    path: "dashboard", component: FixedLayoutComponent,
+    path: 'dashboard', component: FixedLayoutComponent,
 
     children: [{
       path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
@@ -21,9 +22,16 @@ const routes: Routes = [
 
     ],
 
+   
+
+  },
+  {
+    path: '**', redirectTo: 'pagenotfound', pathMatch: 'full'
   },
 
-
+  {
+    path: 'pagenotfound', component: PagenotfoundComponent,
+  }
 ];
 
 @NgModule({

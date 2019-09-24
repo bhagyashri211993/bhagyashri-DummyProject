@@ -11,6 +11,7 @@ import { DashboardFooterComponent } from './component/dashboard-footer/dashboard
 import { DashboardSidebarComponent } from './component/dashboard-sidebar/dashboard-sidebar.component';
 import { DashboardPanelComponent } from './component/dashboard-panel/dashboard-panel.component';
 import { RouterModule } from '@angular/router';
+import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { RouterModule } from '@angular/router';
     DashboardFooterComponent,
     DashboardSidebarComponent,
     DashboardPanelComponent,
+    PagenotfoundComponent,
     
   ],
   imports: [
@@ -37,6 +39,7 @@ import { RouterModule } from '@angular/router';
     DashboardFooterComponent,
     DashboardSidebarComponent,
     DashboardPanelComponent,
+    PagenotfoundComponent,
     
   ]
 })
