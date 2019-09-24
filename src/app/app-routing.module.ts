@@ -29,7 +29,7 @@ const routes: Routes = [
     // {
 
       path:'',loadChildren:"./shared/shared.module#SharedModule",
-   canActivate:[GuardsService] 
+      canActivate:[GuardsService] 
 
     }
     ],
