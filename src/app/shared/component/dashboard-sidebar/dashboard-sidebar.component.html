@@ -1,78 +1,67 @@
 <!-- Bootstrap row -->
 <div class="sidebar">
-        <!-- Sidebar -->
-        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
-            <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
-            <!-- Bootstrap List Group -->
-            <ul class="list-group">
-                <!-- Separator with title -->
-                <li class="list-group-item sidebar-separator-title text-muted bg-dark d-flex   menu-collapsed">
-                    <small><i class="cui-speedometer mr-2 text-primary "></i>MAIN MENU</small>
-                </li>
-                <!-- /END Separator -->
-                <!-- Menu with submenu -->
-                <a href="#submenu1" data-toggle="collapse" aria-expanded="false"
-                    class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-start ">
-    
-                        <span class="menu-collapsed"><i class="iconColor cui-drop mr-2"></i>Dashboard</span>
-                        <span class="submenu-icon ml-auto"></span>
-                    </div>
-                </a>
-                <!-- Submenu content -->
-                <div id='submenu1' class="collapse sidebar-submenu ">
-                    <a href="" class="list-group-item list-group-item-action bg-dark text-white">
-                        <span class="menu-collapsed">Charts</span>
-                    </a>
-                    <a href="" class="list-group-item list-group-item-action bg-dark text-white">
-                        <span class="menu-collapsed">Reports</span>
-                    </a>
-                    <a href="" class=" list-group-item list-group-item-action bg-dark text-white">
-                        <span class="menu-collapsed">Tables</span>
-                    </a>
+    <!-- Sidebar -->
+    <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
+        <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
+        <!-- Bootstrap List Group -->
+        <ul class="list-group">
+            <!-- Separator with title -->
+            <li class="list-group-item sidebar-separator-title text-muted bg-dark d-flex   menu-collapsed">
+                <small><i class="cui-speedometer mr-2 text-primary "></i>MAIN MENU</small>
+            </li>
+            <!-- /END Separator -->
+            <!-- Menu with submenu -->
+            <a href="#submenu1" data-toggle="collapse" aria-expanded="false"
+                class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-start ">
+
+                    <span class="menu-collapsed"><i class="iconColor cui-drop mr-2"></i>Dashboard</span>
+                    <span class="submenu-icon ml-auto"></span>
                 </div>
-                <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
-                    class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
-                    <div class="d-flex w-100 justify-content-start align-items-center">
-                        <span class="menu-collapsed"><i class="cui-user-follow iconColor mr-2"></i>User Registration</span>
-                        <span class="submenu-icon ml-auto"></span>
-                    </div>
-                </a>
-                <!-- Submenu content -->
-                <div id='submenu2' class="collapse sidebar-submenu">
-                    <a routerLink="/dashboard/sign-in" class="list-group-item list-group-item-action bg-dark text-white">
-                        <span class="menu-collapsed">Sign In</span>
-                    </a>
-                    <a routerLink="/dashboard/sign-up" class="list-group-item list-group-item-action bg-dark text-white">
-                        <span class="menu-collapsed">Sign Up</span>
-                    </a>
+            </a>
+            <!-- Submenu content -->
+            <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
+                class="bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="menu-collapsed"><i class="cui-user-follow iconColor mr-2"></i>User Registration</span>
+                    <span class="submenu-icon ml-auto"></span>
                 </div>
-                <a href="" class="bg-dark list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-start align-items-center">
-    
-                        <span class="menu-collapsed"><i class="cui-task iconColor mr-2"></i>Tasks</span>
-                    </div>
+            </a>
+            <!-- Submenu content -->
+            <div id='submenu2' class="collapse sidebar-submenu">
+                <a routerLink="/dashboard/sign-in" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Sign In</span>
                 </a>
-                <a href="" class="bg-dark list-group-item list-group-item-action">
-                    <div class="d-flex w-100 justify-content-start align-items-center">
-    
-                        <span class="menu-collapsed"><i class="cui-bell iconColor mr-2"></i>Notification</span>
-                    </div>
+                <a routerLink="/dashboard/sign-up" class="list-group-item list-group-item-action bg-dark text-white">
+                    <span class="menu-collapsed">Sign Up</span>
                 </a>
-                <a href="" data-toggle="sidebar-colapse"
-                    class="bg-dark list-group-item list-group-item-action d-flex align-items-center">
-                    <div class="d-flex w-100 justify-content-start align-items-center">
-    
-                        <span id="collapse-text" class="menu-collapsed"><i
-                                class="cui-phone iconColor mr-2"></i>Contact</span>
-                    </div>
-                </a>
-    
-            </ul><!-- List Group END-->
-    
-        </div><!-- sidebar-container END -->
-    </div>
-    <!-- <div class="container-fluid">
+            </div>
+            <a href="" class="bg-dark list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+
+                    <span class="menu-collapsed"><i class="cui-task iconColor mr-2"></i>Tasks</span>
+                </div>
+            </a>
+            <a href="" class="bg-dark list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+
+                    <span class="menu-collapsed"><i class="cui-bell iconColor mr-2"></i>Notification</span>
+                </div>
+            </a>
+            <a href="" data-toggle="sidebar-colapse"
+                class="bg-dark list-group-item list-group-item-action d-flex align-items-center">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+
+                    <span id="collapse-text" class="menu-collapsed"><i
+                            class="cui-phone iconColor mr-2"></i>Contact</span>
+                </div>
+            </a>
+
+        </ul><!-- List Group END-->
+
+    </div><!-- sidebar-container END -->
+</div>
+<!-- <div class="container-fluid">
         <div class="innerContent">
             <router-outlet></router-outlet>
        </div>
