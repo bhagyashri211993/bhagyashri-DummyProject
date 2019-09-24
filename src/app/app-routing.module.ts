@@ -9,7 +9,7 @@ const routes: Routes = [
   {
     path: '', redirectTo: 'dashboard', pathMatch: 'full'
   },
-  
+
   {
     path: 'dashboard', component: FixedLayoutComponent,
 
@@ -21,11 +21,11 @@ const routes: Routes = [
     },
 
     {
-      path:'',loadChildren:"./shared/shared.module#SharedModule"
+      path: '', loadChildren: "./shared/shared.module#SharedModule"
     }
     ],
 
-    
+
   },
   {
     path: '**', redirectTo: 'pagenotfound', pathMatch: 'full'
