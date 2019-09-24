@@ -1,14 +1,14 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Numans');
+ @import url('https://fonts.googleapis.com/css?family=Numans');
 
 #bgimg{
 background-image: url('../../../assets/images/wallpaper.jpg');
-/* background-size: cover; */
+background-size: cover; 
 background-repeat: repeat;
 height: 100%;
 font-family: 'Numans', sans-serif;
-}
+} 
 
 .container{
 height: 100%;
