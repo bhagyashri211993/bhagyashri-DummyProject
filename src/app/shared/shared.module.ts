@@ -10,9 +10,11 @@ import { DashboardHeaderComponent } from './component/dashboard-header/dashboard
 import { DashboardFooterComponent } from './component/dashboard-footer/dashboard-footer.component';
 import { DashboardSidebarComponent } from './component/dashboard-sidebar/dashboard-sidebar.component';
 import { DashboardPanelComponent } from './component/dashboard-panel/dashboard-panel.component';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
-
+const routes:Routes=[{
+    path:'panel',component:DashboardPanelComponent
+}];
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.com
     
   ],
   imports: [
-  RouterModule
+  RouterModule.forChild(routes)
   ],
   exports:[
     CommonModule,

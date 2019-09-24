@@ -18,12 +18,14 @@ const routes: Routes = [
     },
     {
       path: '', loadChildren: "./authentication/authentication.module#AuthenticationModule"
-    }
+    },
 
+    {
+      path:'',loadChildren:"./shared/shared.module#SharedModule"
+    }
     ],
 
-   
-
+    
   },
   {
     path: '**', redirectTo: 'pagenotfound', pathMatch: 'full'
