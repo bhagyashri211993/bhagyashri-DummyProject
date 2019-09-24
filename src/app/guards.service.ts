@@ -29,7 +29,7 @@ export class GuardsService implements CanActivate{
    {
      alert("active user not found");
      this.router.navigate(['/log-in']);
-     return false;
+    //  return false;
    }
    
     // if(!activeUser)
