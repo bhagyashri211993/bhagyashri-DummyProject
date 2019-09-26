@@ -1,9 +1,9 @@
  .outerDiv {
-    height: calc(100vh - 91px);
+    height: calc(100vh - 108px);
     position: relative;
     width: calc(100% - 200px);
     margin-left: 200px;
-    margin-top: 57px;
+    margin-top: 67px;
  } 
 
 .nav {

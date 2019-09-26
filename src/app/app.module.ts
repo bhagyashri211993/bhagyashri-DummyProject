@@ -7,7 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { AuthenticationModule } from './authentication/authentication.module';
 import { DashboardModule } from './dashboard/dashboard.module';
-
+import { CommonModule } from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -21,7 +21,8 @@ import { DashboardModule } from './dashboard/dashboard.module';
     SharedModule,
     RouterModule,
     AuthenticationModule,
-    DashboardModule
+    DashboardModule,
+    CommonModule
     
  
   ],

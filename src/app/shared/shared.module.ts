@@ -12,6 +12,10 @@ import { DashboardSidebarComponent } from './component/dashboard-sidebar/dashboa
 import { DashboardPanelComponent } from './component/dashboard-panel/dashboard-panel.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PagenotfoundComponent } from './component/pagenotfound/pagenotfound.component';
+import { TransformDataPipe } from './pipe/transform-data.pipe';
+import { CustomComponent } from './component/custom/custom.component';
+
+
 const routes:Routes=[{
     path:'panel',component:DashboardPanelComponent
 }];
@@ -27,13 +31,17 @@ const routes:Routes=[{
     DashboardSidebarComponent,
     DashboardPanelComponent,
     PagenotfoundComponent,
+    TransformDataPipe,
+    CustomComponent,
     
   ],
   imports: [
-  RouterModule.forChild(routes)
+  RouterModule.forChild(routes),
+  CommonModule
+  
   ],
   exports:[
-    CommonModule,
+    
     sqrt,
     elisp,
     child,customdirective,
@@ -42,6 +50,7 @@ const routes:Routes=[{
     DashboardSidebarComponent,
     DashboardPanelComponent,
     PagenotfoundComponent,
+    
     
   ]
 })
